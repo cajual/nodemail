@@ -1,0 +1,31 @@
+{
+  "name": "nodemail",
+  "version": "1.0.0",
+  "description": "Simple node mailer using nodemailer SMT pooling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cajual/nodemail.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "mailer",
+    "mail"
+  ],
+  "author": "Ryan Gibbons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cajual/nodemail/issues"
+  },
+  "homepage": "https://github.com/cajual/nodemail#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nodemailer": "^6.4.6",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
